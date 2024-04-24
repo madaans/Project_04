@@ -1,0 +1,81 @@
+<!--
+    Project Number: 4
+    Author: Sanchi Madaan
+    Date: 24 April, 2024
+    Description: This HTML file is part of Project 4, containing the structure and content for a webpage. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrimad Bhagavad Geeta - The Song of God</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sedan&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Sedan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Hamburger Menu -->
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        
+        <!-- Side Navigation (Hidden by default, will show on menu toggle) -->
+        <nav class="side-nav" id="side-nav">
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li> 
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About the Gita</a></li> 
+                <li><a href="read.html"><i class="fas fa-book"></i> Read the Gita</a></li> 
+                <li><a href="daily-verse.html"><i class="fas fa-scroll"></i> Daily Verse</a></li> 
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a></li> 
+            </ul>
+        </nav>
+        
+        <!-- Main Content Area with Background Image -->
+        <div class="main-content" role="main">
+            <div class="text-box">
+                <h1>Shrimad Bhagavad Gita</h1>
+                <p class="subtitle">The Divine Song of God</p>
+            </div>
+        </div>
+        
+        <div id="about-section" class="hidden">
+            <!-- Content related to the Bhagavad Geeta goes here -->
+        </div>
+
+         <!-- Placeholder for content that changes -->
+         <div id="read-section" class="hidden">
+            <!-- Content for 'Read' will be loaded here -->
+        </div>
+
+        <div id="daily-verse-section" class="hidden">
+            <!-- Content for 'Daily Verse' will be loaded here -->
+        </div>
+
+        <!-- Contact Section Placeholder -->
+        <div id="contact-section" class="hidden">
+            <!-- Content related to Contact goes here -->
+        </div>
+        <!-- Social Media Links -->
+        <footer>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" aria-label="Visit our Instagram page">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" aria-label="Visit our LinkedIn page">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>            
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

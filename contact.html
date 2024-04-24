@@ -1,0 +1,43 @@
+<!--
+    Project Number: 4
+    Author: Sanchi Madaan
+    Date: 24 April, 2024
+    Description: This HTML file is part of Project 4, containing the structure and content for a webpage. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe for Daily Quotes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="subscription">
+        <h2>Have the Shloka of the Day delivered to your inbox each morning</h2>
+
+        <form id="subscription-form">
+            <!-- Name input with focus effect -->
+            <input type="text" id="subscriber-name" name="name" placeholder="Enter Your Name" required>
+
+            <!-- Email input with focus effect -->
+            <input type="email" id="subscriber-email" name="email" placeholder="Enter Your Email" required>
+
+            <!-- Phone number input with focus effect -->
+            <input type="tel" id="subscriber-phone" name="phone" placeholder="Enter Your Phone Number" pattern="\d{10}" title="Enter a valid 10-digit phone number" required>
+
+            <!-- Comments input field -->
+            <textarea id="subscriber-comments" name="comments" placeholder="Enter any comments" rows="4"></textarea>
+
+            <!-- Subscribe button with hover effect -->
+            <button type="submit" id="subscribe-button"><b>Subscribe</b></button>
+
+            <!-- Error message -->
+            <p id="form-message" class="hidden">Please fill in all fields correctly.</p>
+        </form>
+    </section>
+    <script src="formvalidation.js"></script>
+</body>
+</html>
